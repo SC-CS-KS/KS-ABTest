@@ -15,5 +15,4 @@ airbnb在一月底进行了一次product launch(产品发布)，虽然产品发�
 
 流量的随机分配使因果推断成为可能。
 
-## [假设检验](hypothesis-testing.md)
-
+## [统计](Statistics/README.md)
