@@ -1,6 +1,7 @@
 # 效果分析
 
-A/B Test方向的大咖 Ron Kohavi 说过: “拿到A/B Test的数据容易， 拿到可信的A/B Test的数据很难”。
+A/B Test方向的大咖 Ron Kohavi 说过:   
+“拿到A/B Test的数据容易， 拿到可信的A/B Test的数据很难”。  
 
 ## 因果推断
 
@@ -15,4 +16,4 @@ airbnb在一月底进行了一次product launch(产品发布)，虽然产品发�
 
 流量的随机分配使因果推断成为可能。
 
-## [统计](Statistics/README.md)
+## [统计](Statistics/README.md)  
