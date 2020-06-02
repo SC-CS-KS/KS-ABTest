@@ -30,8 +30,10 @@ $T = \frac{\hat\mu_B - \hat\mu_A}{\sqrt{\hat{var}(\hat\mu_B) + \hat{var}(\hat\mu
 在$H_0$是对的条件下，这个正态分布的均值为0。  
 
 $\hat{var}(\hat\mu_B)$ 和 $\hat{var}(\hat\mu_A)$分别是B和A中的样本方差除以样本数。  
-理论上可以证明$\frac{\hat{var}(\hat\mu_B) + \hat{var}(\hat\mu_A)}{{var}(\hat\mu_B) + {var}(\hat\mu_A)}$近似服从$\chi^2(n_A + n_B -2)$，其中$n_A$和$n_B$分别是A和B中的样本数。  
-而$\frac{\hat\mu_B - \hat\mu_A}{\sqrt{{var}(\hat\mu_B) + {var}(\hat\mu_A)}}$服从标准正态分布，并且我们可以证明 ${var}(\hat\mu_B) + {var}(\hat\mu_A)$ 和 $\hat\mu_B - \hat\mu_A$ 是近似独立的。  
+理论上可以证明$\frac{\hat{var}(\hat\mu_B) + \hat{var}(\hat\mu_A)}{{var}(\hat\mu_B) + {var}(\hat\mu_A)}$近似服从$\chi^2(n_A + n_B -2)$，  
+其中$n_A$和$n_B$分别是A和B中的样本数。  
+而$\frac{\hat\mu_B - \hat\mu_A}{\sqrt{{var}(\hat\mu_B) + {var}(\hat\mu_A)}}$服从标准正态分布，  
+并且我们可以证明 ${var}(\hat\mu_B) + {var}(\hat\mu_A)$ 和 $\hat\mu_B - \hat\mu_A$ 是近似独立的。  
 
 上面的 $T$ 统计量写成下面等式右侧的形式：
 
